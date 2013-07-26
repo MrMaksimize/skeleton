@@ -13,4 +13,4 @@ projects[kw_itemnames][subdir] = "kraftwagen"
 
 ; Include the definition of how to build Drupal core directly, including patches.
 includes[] = "drupal-org-core.make"
-includes[] = "drupal-org.make"
+includes[remote] = "http://drupalcode.org/project/cod.git/blob_plain/HEAD:/drupal-org.make"
