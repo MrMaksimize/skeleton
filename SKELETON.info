@@ -20,7 +20,7 @@ dependencies[] = shortcut
 dependencies[] = field
 dependencies[] = field_ui
 dependencies[] = file
-dependencies[] = dblog
+dependencies[] = syslog
 dependencies[] = update
 
 ; Panopoly Foundation
@@ -38,7 +38,8 @@ dependencies[] = panopoly_search
 dependencies[] = panopoly_wysiwyg
 
 ; Panopoly Recommended - Admin
-dependencies[] = navbar
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = backports
 dependencies[] = simplified_menu_admin
 dependencies[] = save_draft
